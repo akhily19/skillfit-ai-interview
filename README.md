@@ -1,85 +1,117 @@
-🧠 SkillFit AI — AI Video Interview & Workforce Classification Platform
+# SkillFit AI — Scalable Video-Based Candidate Assessment Platform
 
-AI-powered multilingual video interview platform for scalable candidate assessment, workforce screening, and skill classification.
+AI-powered multilingual video interview and workforce classification platform built for scalable candidate screening and skill assessment.
 
-Built for hackathon-grade workforce automation and modern digital hiring workflows.
+---
 
-🚀 Overview
+# 🚀 Overview
 
-SkillFit AI is a scalable AI interview platform inspired by modern systems like HireVue, designed for workforce assessment and remote candidate screening.
+SkillFit AI is an intelligent workforce assessment platform inspired by modern AI interview systems like HireVue.
 
 The platform enables:
 
-AI-powered video interviews
-Multilingual interview experience
-Real-time webcam & microphone monitoring
-AI voice-based question system
-Automated workforce classification
-Candidate analytics dashboard
-Fraud detection & monitoring
-Government-style admin portal
+* AI-driven video interviews
+* Real-time camera & microphone assessment
+* Multilingual interview support
+* Automated workforce classification
+* Candidate analytics dashboard
+* Government/admin monitoring portal
+* Scalable digital hiring workflow
 
-Designed especially for blue-collar, polytechnic, and large-scale workforce hiring scenarios.
+Designed for blue-collar and polytechnic workforce assessment scenarios.
 
-✨ Features
-👨‍💼 Candidate Side
-Modern premium UI/UX
-Candidate registration workflow
-Multilingual support
-English
-Hindi
-Kannada
-AI voice interviewer
-Replay question functionality
-Real-time webcam & microphone access
-Live interview timer
-Responsive mobile-first interface
-Video interview recording
-🧠 AI Assessment Engine
-AI-generated interview experience
-Automated candidate evaluation
-Communication & confidence analysis
-Skill relevance scoring
-Authenticity detection
-AI-based workforce classification
-🛡️ Fraud Detection
-Multiple face detection
-Suspicious activity monitoring
-Off-screen gaze tracking
-Audio quality analysis
-Duplicate candidate detection
-📊 Admin Dashboard
-Secure admin login
-Workforce analytics dashboard
-Candidate monitoring system
-AI assessment reports
-Fraud monitoring center
-Recruiter review workflow
-🛠️ Tech Stack
-Frontend
-React.js + Vite
-Tailwind CSS
-Framer Motion
-React Router DOM
-Recharts
-Lucide React
-React Webcam
-face-api.js
-Backend
-Node.js
-Express.js
-MongoDB Atlas
-Mongoose
-JWT Authentication
-Multer
-Cloudinary
-AI & Browser APIs
-OpenAI Whisper
-OpenAI GPT-4o
-MediaRecorder API
-SpeechSynthesis API
-Camera & Microphone APIs
-📂 Project Structure
+---
+
+# ✨ Features
+
+## 👨‍💼 Candidate Side
+
+* Premium modern UI
+* Candidate registration flow
+* Multilingual interview support
+
+  * English
+  * Hindi
+  * Kannada
+* AI voice-based interview questions
+* Replay question functionality
+* Real-time webcam & microphone access
+* Live interview timer
+* AI interview simulation experience
+* Video recording workflow
+* Responsive design
+
+## 🧠 AI Interview Engine
+
+* AI speaks interview questions automatically
+* Continuous interview monitoring
+* Real-time recording during assessment
+* Interactive AI interviewer experience
+* Dynamic interview session flow
+
+## 🛡️ Admin Portal
+
+* Secure admin login UI
+* Workforce analytics dashboard
+* Candidate monitoring system
+* Assessment management
+* Government-style dashboard design
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+* React Router DOM
+
+## Backend
+
+* Node.js
+* Express.js
+* MongoDB Atlas (optional/demo mode supported)
+
+## Browser APIs
+
+* MediaRecorder API
+* SpeechSynthesis API
+* Camera & Microphone APIs
+
+---
+
+# 🎯 Problem Statement
+
+Traditional workforce assessment systems lack:
+
+* Standardized evaluation
+* Scalable video assessment
+* AI-assisted candidate screening
+* Regional language support
+* Remote interview automation
+
+SkillFit AI solves these problems using AI-powered automated video interviews.
+
+---
+
+# 💡 Key Innovations
+
+* AI-powered voice interviewer
+* Automated multilingual interviews
+* Real-time webcam monitoring
+* Workforce fitment classification
+* Scalable remote assessment system
+* Premium government-grade UI/UX
+
+---
+
+# 📂 Project Structure
+
+```bash
 skillfit-ai/
 ├── frontend/
 │   ├── src/
@@ -94,64 +126,87 @@ skillfit-ai/
 │   └── models/
 │
 └── README.md
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/your-username/skillfit-ai.git
+```
+
+---
+
+# ⚙️ Installation
+
+## 1. Clone Repository
+
+```bash
+git clone <your-repository-url>
 cd skillfit-ai
-2. Install Dependencies
+```
+
+## 2. Install Dependencies
+
+```bash
 npm run install:all
-3. Run Frontend
+```
+
+## 3. Run Frontend
+
+```bash
 cd frontend
 npm run dev
-4. Run Backend
+```
+
+## 4. Run Backend
+
+```bash
 cd backend
 npm run dev
-🌐 Environment Variables
+```
 
-Create .env inside backend:
+---
 
+# 🌐 Environment Variables
+
+Create `.env` inside backend:
+
+```env
 PORT=5000
 NODE_ENV=development
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret
+```
 
-OPENAI_API_KEY=your_openai_key
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-🎯 Problem Statement
+---
 
-Traditional workforce assessment systems lack:
+#
 
-Standardized evaluation
-Scalable remote interviews
-AI-assisted candidate screening
-Regional language accessibility
-Automated fraud monitoring
+---
 
-SkillFit AI solves these challenges using AI-powered multilingual video interviews and automated workforce classification.
+# 🏆 Hackathon Focus
 
-
-🔮 Future Enhancements
-AI emotion analysis
-Eye-contact detection
-Speech-to-text analytics
-Resume parsing
-AI scoring engine
-Real-time transcription
-Cloud video storage
-AI candidate ranking
-🏆 Hackathon Focus
-
-Built for scalable AI-powered workforce assessment and digital hiring automation.
+This project was built for AI-powered workforce assessment and scalable candidate screening use cases.
 
 Core objectives:
 
-Workforce digitization
-AI-based candidate assessment
-Regional language accessibility
-Scalable interview infrastructure
-Smart workforce classification
-📄 License
+* Digital workforce transformation
+* AI-based assessment automation
+* Regional language accessibility
+* Scalable interview infrastructure
 
-Built for hackathon and educational purposes.
+---
+
+# 🔮 Future Enhancements
+
+* AI emotion analysis
+* Eye-contact detection
+* Fraud detection
+* Speech-to-text analytics
+* AI scoring engine
+* Resume parsing
+* Real-time transcription
+* Cloud video storage
+* AI candidate ranking
+
+---
+
+#
+
+---
+
+#
