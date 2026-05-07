@@ -191,6 +191,18 @@ Core objectives:
 
 ---
 
+# 💡 Key Innovations
+
+* 🎙️ AI-powered voice interviewer
+* 🌐 Multilingual interview system
+* 🧠 Automated workforce classification
+* 📹 Real-time webcam monitoring
+* 🛡️ Fraud detection system
+* 📊 Government-grade dashboard UI
+* ☁️ Scalable remote assessment workflow
+
+---
+
 # 🔮 Future Enhancements
 
 * AI emotion analysis
@@ -205,8 +217,6 @@ Core objectives:
 
 ---
 
-#
+# 📄 License
 
----
-
-#
+Built for hackathon and educational purposes.
